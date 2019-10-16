@@ -40,3 +40,15 @@
 .vs/*
 
 *.vcxproj
+
+apps/*
+
+*/Release/*
+
+lib/platform/x64/
+
+*.tlog
+
+*.log
+
+*.pdb

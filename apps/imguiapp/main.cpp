@@ -107,6 +107,7 @@ int main()
 		// poll events, may affect probepos so needs to happen between HandleInput and Render
 		glfwPollEvents();
 		// update animations
+		//! Roger: THIS IS WHERE WE UPDATE ANIMATIONS!
 		if (!animPaused) for( int i = 0; i < renderer->AnimationCount(); i++ )
 		{
 			renderer->UpdateAnimation( i, deltaTime );
